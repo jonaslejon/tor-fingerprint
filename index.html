@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Tor Browser Fingerprint Demo Page | Triop AB</title>
+    <link rel="stylesheet" href="new-fonts.css">
+    <link rel="stylesheet" href="triop.css">
+    <script src="https://hnbutton.appspot.com/static/hn.min.js"></script>
+    <script type="text/javascript" src="advert.js"></script>
+    <script type="text/javascript" src="/secretmedia-sdk-tor.js"></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+<a href="https://github.com/jonaslejon/tor-fingerprint/" target="_new"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+
+<div class="content">
+
+        <div class="browser">
+        
+        <div class="browser-header">
+            <div class="dots-content">
+                <ul class="dots">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="browser-content">
+        <img src="Tor-browser-fingerprint.png" style="width: 50px; margin-bottom: 15px;" alt="Tor Browser Fingerprint"/>
+            <h1>Tor Browser Fingerprint</h1>
+
+            <p>Tor Browser detected: <span id="tor"><img src="loading.gif" alt="Loading.."/></span></p>
+            <p>Tails: <span id="tails"></span></p>
+            <p>Guessed system: <span class="mac">Mac OS X, </span><span id="guessed"></span></p>
+            <p>Fingerprint: <span id="fingerprint"></span>, <span id="fingerprint2"></span></p>
+            <p><a href="https://github.com/jonaslejon/tor-fingerprint/" target="_new">View more information on Github</a></p>
+            <p style="font-size: 12px;">This is a proof-of-concept page to demo <a href="https://www.torproject.org/projects/torbrowser.html.en" target="_new">Tor Browser</a> fingerprinting using Javascript</p>
+
+            </div>
+
+        </div>
+        <div style="margin-bottom: 10px;">
+                <a href="javascript:window.location=%22https://news.ycombinator.com/submitlink?u=%22+encodeURIComponent(document.location)+%22&t=%22+encodeURIComponent(document.title)" rel="nofollow" target="_new" class="hn-share-button">&hearts; Vote on Hacker News</a>
+        </div>
+
+<div class="social">
+    <span class="twitter">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://tor.triop.se">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </span>
+    <span class="google">
+        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <g:plusone size="medium" href="https://tor.triop.se"></g:plusone>
+    </span>
+    <span class="Facebook">
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https://tor.triop.se&amp;show_faces=false&amp;layout=button_count" scrolling="no" frameborder="0" style="height: 21px; width: 100px" allowTransparency="true"></iframe>
+    </span>
+    <span class="github">
+            <iframe src="https://ghbtns.com/github-btn.html?user=jonaslejon&repo=tor-fingerprint&type=star&count=true" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+    </span>
+</div>
+    </div>
+
+</div>
+
+<script src="tor-fingerprint.js"></script>
+</body>
+</html>

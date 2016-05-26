@@ -1,0 +1,236 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: ProximaNova-Regular, Arial;
+    font-size: 16px;
+    background: #f9f9f9;
+    background-size: cover;
+    line-height: 130%;
+}
+
+a {
+    color: #00a154;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.mac { display:none; }
+@supports (-moz-osx-font-smoothing:auto) { .mac { display:block; } }
+@media screen and (-webkit-max-device-pixel-ratio:1) and (min-color-index:0) {
+    .mac {(; display:block; );} 
+}
+
+a.unsubscribe {
+
+    /* background: #F0820C; */
+    background: #333;
+    border-radius: 5px;
+    padding: 0 18px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+    min-width: 120px;
+
+}
+
+a.unsubscribe:hover {
+
+    background: #666;
+
+}
+
+a.leave {
+    /* background: #F0820C; */
+    border-radius: 5px;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+
+.content {
+    position: absolute;
+    width: 600px;
+    height: 370px;
+    top: 50%;
+    left: 50%;
+    margin-top: -215px;
+    margin-left: -300px;
+    text-align: center;
+
+}
+
+.content .report {
+
+    font-size: 12px;
+    text-align: right;
+
+}
+
+
+.content .browser {
+
+    float: left;
+    background: #ffffff;
+    text-align: center;
+    width: 100%;
+    border: 2px solid #cccccc;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+
+}
+
+.content .browser .browser-header {
+
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+    box-sizing: padding-box;
+
+}
+
+.content .browser .browser-header .dots-content {
+    padding: 15px;
+}
+
+.content .browser .browser-header .dots {
+
+    float: left;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+
+}
+
+.content .browser .browser-header .dots li {
+
+    float: left;
+    display: inline;
+    background: #cccccc;
+    border-radius: 6px;
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+
+}
+
+.content .browser .browser-content {
+
+    float: left;
+    width: 100%;
+    padding: 30px 0px 35px 0px;
+    box-sizing: padding-box;
+
+}
+
+.content .browser .browser-content h1 {
+
+    margin: 0px 30px 30px 30px;
+    font-size: 30px;
+    font-family: ProximaNova-Bold;
+    font-weight: normal;
+
+}
+
+.content .browser .browser-content h2 {
+
+    margin: 0px 30px 15px 30px;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.content .browser .browser-content p {
+
+    margin: 0px 30px 15px 30px;
+
+}
+
+.content .browser .browser-content .buttons {
+
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.content .logo img {
+
+    height: 40px;
+
+}
+
+
+@media (max-width: 660px) {
+
+    body {
+
+        padding: 30px;
+
+    }
+
+    a.unsubscribe {
+        margin: 0;
+        width: 50%;
+        margin-bottom: 15px;
+        padding: 0;
+
+    }
+
+    .content {
+
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 0px 0px;
+        left: 0;
+        top: 0;
+
+    }
+
+    .content .browser .browser-content {
+
+        padding-bottom: 35px;
+
+    }
+
+}
+
+.clear {
+    clear: both;
+}
+
+/* This gets Google to fall into place */
+.social {
+    font-size: 1px;
+}
+ 
+/* This gets Facebook to fall into place */
+.social iframe {
+    vertical-align: middle;
+}
+ 
+/* Set an optional width for your button wrappers */
+.social span {
+    display: inline-block;
+    width: 110px;
+}
+ 
+/* Adjust the widths individually if you like */
+.social .google {
+    width: 75px;
+}
+.social .github {
+    vertical-align: top;
+}

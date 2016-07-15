@@ -130,7 +130,7 @@ function ChkTorBtn() {
       if (document.getElementById("tester23") != undefined) 
         document.getElementById("tails").innerHTML = "Yes < v2.3";
       else
-        document.getElementById("tails").innerHTML = "Yes v2.3";
+        document.getElementById("tails").innerHTML = "Yes > v2.3";
     } else
       document.getElementById("tails").innerHTML = "No";
   } else {

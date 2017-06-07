@@ -114,6 +114,11 @@ function ChkTorBtn() {
      tor = true;
   }
 
+  if(fingerprint === 1156197455 && fingerprint2 === 1675336124) {
+     system = "Tor Browser 7.x";
+     tor = true;
+  }
+
   // Log 
   /*
   imageObj = new Image();

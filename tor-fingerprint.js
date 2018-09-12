@@ -118,6 +118,14 @@ function ChkTorBtn() {
      system = "Tor Browser 7.x";
      tor = true;
   }
+  if(fingerprint === -1837656903 && fingerprint2 === -246549176) {
+     system = "Tor Browser 8.x";
+     tor = true;
+  }
+  if(fingerprint === 427398366 && fingerprint2 === -1833260824) {
+     system = "Tor Browser 8.x (win)";
+     tor = true;
+  }
 
   // Log 
   /*
